@@ -1,0 +1,186 @@
+ body {
+        margin: 0; 
+        font-family: 'Arial', sans-serif;
+        background-color: black;
+        color: white; 
+    } 
+     .main {
+        display: flex;
+        padding: 10%; 
+        color: black; 
+        text-align: center;
+    }  
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+        margin-top: 15%;
+        margin-left: 20%;
+        margin-right: 2%;
+        max-height: fit-content;
+    } 
+    .content {
+        width: 60%;
+        justify-content: baseline;
+        white-space: 0; 
+        margin-bottom: 20%;
+        margin-top: 1%;
+    }
+
+    .image-section {
+        width: 38%;
+        margin-left: 5%;
+    } 
+    .image-section img { 
+        width: 60%;
+        height: 30%; 
+        border-radius: 50cm; 
+border: 2px solid rgb(77, 73, 73); 
+box-shadow: 0 0 30px  rgb(83, 78, 67);
+filter: drop-shadow(2px); 
+    }
+    li{
+        display: inline-flex;
+        margin: 0 10px; 
+        float: right;
+        margin-right: 2%;
+        margin-top: 28px;
+        font-size: 20px;
+    }
+      li a{text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace; 
+     }
+    .navbar{
+        width: auto;
+        height: 0;
+        justify-content: baseline;
+        display: inline; 
+        color: rgb(104, 19, 19);
+    }
+    .navbar h1{
+        display: inline-block;
+        width: auto;
+        height: 100%;
+        /* margin: 50px 0px 3px  6%; */
+        /* margin-top: 4cm;*/
+        margin-left: 5%; 
+
+    }
+    .navbar ul  {
+        
+        display: inline;
+        padding:  10px 0;
+        text-align: center;
+        width: 100%;
+        margin-top:7px ;
+        margin-left: 30%;
+        justify-content: center; 
+    } 
+    .navbar button  {
+  
+                     position:absolute;
+                     display:inline-block;
+                     padding: 10px 30px;
+                     font-size: 18px;
+                     text-decoration: none;
+                     background: rgb(116, 53, 53);
+                     color: rgb(221, 235, 235);
+                     border-radius: 10px;
+                     transition: background 0.3s ease;
+                     background-attachment: fixed;
+                     position: absolute;
+                     left: 29%;
+                     top: 78%;
+                     transform: translate(-50%,-50%);
+                     border-radius: 7px;
+                     font-weight: bold; 
+                       cursor: pointer;
+} 
+     h2{
+        color:white;
+        font-size: 40px; 
+    }
+    h3{
+        font-size: 25px;
+        color: rgb(112, 30, 30);
+    }
+
+    p {
+        color: whitesmoke;
+        margin-left: 2%; 
+        font-size: 30px;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+     p1{
+        color:white;
+        text-align: center;
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     p2{
+        color: rgb(182, 189, 189);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25PX;
+     }
+
+    section1{ 
+           
+         border: black;
+         max-width: auto;
+         width: auto; 
+         height: 40%;
+         background-color: rgb(85, 52, 10);
+         display: flex;
+         color: black; 
+         padding: 8%;
+         margin-top: 10px; 
+    } 
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200 bold;
+        text-decoration:solid; 
+    }
+    .project1 { 
+         width: 100%;
+         height: auto;  
+    }
+     .project1 img{  
+                    width: 60%;
+                    height: 60%;
+                    color: black;  
+                    box-shadow: 0 0 30px  rgb(83, 78, 67);
+                    filter: drop-shadow(2px);
+                    margin-left: 15%; 
+     }
+     .project2{ 
+         width: 100%;
+         height:auto ; 
+         margin-left:20% ; 
+     }
+     .project2 img{ 
+        width: 60%;
+        height: 60%; 
+        border: 2px solid rgb(77, 73, 73); 
+        box-shadow: 0 0 30px  rgb(83, 78, 67);
+        filter: drop-shadow(2px);
+        margin-left: 20.8%; 
+}
+section2{   
+        border: black;
+         max-width: auto;
+         width: auto; 
+         height: fit-content;
+         background-color: rgb(85, 52, 10);
+         display: inline-block;
+         color: black; 
+         padding: 8%;
+         
+          
+} 
