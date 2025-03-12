@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "projects/ProjectA.png",
+    "description": " A Learning Website for Mastering Corporate Communication 🚀",
+    "skills": [],
+    "demo": " https://www.lingstitute.com/",
+    "source": " https://github.com/amishagupta31/Lingstitute"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/ProjectB.png",
+    "description": "This Project is designed to assist UPSC aspirants in their exam preparation using AI-driven tools.",
+    "skills": [ ],
+    "demo": " https://upsc-brain.vercel.app/",
+    "source": "https://github.com/amishagupta31/Upscbrain "
+  }
+]
